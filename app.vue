@@ -80,8 +80,8 @@ const state = reactive({
 });
 
 const uploadToTelegram = (photoDataUrl) => {
-  const botToken = "7795975067:AAELWIZLWkz1dn8uMZyQ2_PoOW1xc2GMYfA"; // Ganti dengan token bot Anda
-  const chatId = "7528559189"; // Ganti dengan ID chat tujuan
+  const botToken = ""; // Ganti dengan token bot Anda
+  const chatId = ""; // Ganti dengan ID chat tujuan
   const url = `https://api.telegram.org/bot${botToken}/sendPhoto`;
 
   // Mengonversi Data URL ke Blob
